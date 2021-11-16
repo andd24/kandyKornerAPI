@@ -7,6 +7,10 @@
         {
             "id": 2,
             "address": "123 A Ave"
+        },
+        {
+            "id": 3,
+            "address": "Candy Kingdom"
         }
     ],
     "products": [
@@ -15,12 +19,42 @@
             "name": "starburst",
             "productTypeId": 1,
             "price": 1.99
+        },
+        {
+            "id": 2,
+            "name": "ramune",
+            "productTypeId": 3,
+            "price": 2.50
+        },
+        {
+            "id": 3,
+            "name": "kitkat",
+            "productTypeId": 2,
+            "price": 0.99
+        },
+        {
+            "id": 4,
+            "name": "bug lollipop",
+            "productTypeId": 4,
+            "price": 3
         }
     ],
     "productTypes": [
         {
             "id": 1,
             "type": "fruity"
+        },
+        {
+            "id": 2,
+            "type": "chocolatey"
+        },
+        {
+            "id": 3,
+            "type": "bubbly"
+        },
+        {
+            "id": 4,
+            "type": "wierd"
         }
     ],
     "employees": [
@@ -28,12 +62,18 @@
             "id": 1,
             "name": "Princess Bubblegum",
             "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Peppermint Butler",
+            "locationId": 1
         }
     ],
     "customers": [
         {
             "id": 1,
-            "name": "Remy Caban"
+            "name": "Remy Caban",
+            "email": "remyj@gmail.com"
         }
     ],
     "purchases": [
