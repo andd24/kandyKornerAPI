@@ -1,0 +1,48 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "99 Z St"
+        },
+        {
+            "id": 2,
+            "address": "123 A Ave"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "starburst",
+            "productTypeId": 1,
+            "price": 1.99
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "fruity"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Princess Bubblegum",
+            "locationId": 2
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Remy Caban"
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "productId": 1,
+            "customerId": 1,
+            "locationId": 1,
+            "employeeId": 1
+        }
+    ]
+}
